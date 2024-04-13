@@ -1,13 +1,23 @@
 :root {
   --main-bg-color: #5f7660;
   --main-font-color: #f9fff9;
-  --main-font: "Noto Serif", serif;
 }
 
 
 body {
   background-color: var(--main-bg-color);
   color: var(--main-font-color);
-  font-family: var(--main-font);
+}
+
+.sedan-regular {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sedan-regular-italic {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 

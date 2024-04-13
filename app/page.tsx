@@ -1,11 +1,15 @@
 import Image from "next/image";
+import {MyDocument} from "MyDocument";
 
 export default function Home() {
   return (
-    <main>
-      <div>
-        <h1>Hello, World!</h1>
-      </div>
+    <main className="sedan-regular">
+      <nav>
+
+      </nav>
+      <h1>
+        Hi, I&apos;m Holly...
+      </h1>
     </main>
   );
 }
