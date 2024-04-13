@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="sedan-regular">
+    <main>
       <nav>
 
       </nav>
