@@ -2,31 +2,33 @@ import "../globals.css";
 import React from 'react';
 import Link from 'next/link';
 
-export default function Navbar() {
+const Navbar: React.FC = () => {
   return (
     <ul className="navUl">
       <li className="navLi">
-        <Link className="navAtag" href="/_components/ContactForm">
+        <Link className="navAtag" href={"/ContactForm"}>
         Contact
         </Link>
       </li>
       <li className="navLi">
-      <Link className="navAtag" href="/_components/Projects">
+      <Link className="navAtag" href={"/Projects"}>
         Projects
         </Link>
       </li>
       <li className="navLi">
-      <Link className="navAtag" href="/_components/AboutMe">
+      <Link className="navAtag" href={"/AboutMe"}>
         About
         </Link>
       </li>
       <li className="navLi">
-      <Link className="navAtag" href="/_components/page">
+      <Link className="navAtag" href={"/"}>
         Home
         </Link>
       </li>
     </ul>
-    
+
   );
 }
+
+export default Navbar;
 

@@ -3,7 +3,9 @@ PLAN
 - Create home page
 - Break into components and link
 - Create about page
+- Break into components and link
 - Create Projects page 
+- Break into components and link
 
 
 

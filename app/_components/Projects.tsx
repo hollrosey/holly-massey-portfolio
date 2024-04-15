@@ -1,6 +1,9 @@
+import "../globals.css";
+import React from 'react';
+
 export default function Projects() {
     return (
-      <h1>test!</h1>
+      <h1>Project test!</h1>
     );
   }
   
