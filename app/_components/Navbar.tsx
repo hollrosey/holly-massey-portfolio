@@ -1,5 +1,5 @@
 "use client";
-import "../globals.css";
+import "./Navbar.css";
 import React from 'react';
 import Link from 'next/link';
 
