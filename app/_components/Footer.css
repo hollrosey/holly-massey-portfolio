@@ -1,0 +1,13 @@
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--navbar-colour);
+  color: var(--main-font-colour);
+  text-align: center;
+}
+
+h3 {
+  background-color: var(--navbar-colour);
+}

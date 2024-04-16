@@ -3,6 +3,7 @@ import React from 'react';
 import Head from 'next/head';
 import "./globals.css";
 import Navbar from "./_components/Navbar";
+import Footer from "./_components/Footer";
 
 export const metadata: Metadata = {
   title: "Holly Massey Portfolio",
@@ -29,6 +30,7 @@ export default function RootLayout({
         <main>
         <Navbar links={navLinks} />
           {children}
+          <Footer />
         </main>
         </body>
     </html>
