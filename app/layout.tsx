@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const navLinks = [
-  { name: "ContactForm", location: "/ContactForm"},
+  { name: "Contact", location: "/ContactForm"},
   { name: "Projects", location: "/Projects"},
   { name: "About", location: "/AboutMe"},
   { name: "Home", location: "/"}
