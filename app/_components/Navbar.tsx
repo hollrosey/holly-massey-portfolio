@@ -14,6 +14,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ links }) => {
   return (
+    <nav className="underline-style">
     <ul className="navUl">
       {links.map((link, index) => ( // Fixed map function syntax
         <li className="navLi" key={index}>
@@ -23,6 +24,7 @@ const Navbar: React.FC<NavbarProps> = ({ links }) => {
         </li>
       ))}
     </ul>
+    </nav>
   );
 }
 
