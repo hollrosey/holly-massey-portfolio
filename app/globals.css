@@ -14,10 +14,10 @@ body {
   margin-top: 70px;
 }
 
-.underline-style ul li a {
+.underline-style a {
   position: relative;
 }
-.underline-style ul li a:after {
+.underline-style a:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -26,10 +26,10 @@ body {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #aaa;
+  background: var(--main-font-color);
   height: 1px;
 }
-.underline-style ul li a:hover:after {
+.underline-style a:hover:after {
   width: 100%;
 }
 

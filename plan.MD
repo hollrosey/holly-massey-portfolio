@@ -2,6 +2,8 @@ PLAN
 
 - Create home page
 - Break into components and link
+- Create header and footer
+- Break into components and link
 - Create about page
 - Break into components and link
 - Create Projects page 
@@ -16,3 +18,4 @@ REMEMBER TO:
 - Include my tech stack
 - Check imports etc 
 - Keep styles reusable
+- Make mobile navbar
