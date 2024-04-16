@@ -1,34 +1,31 @@
+"use client";
 import "../globals.css";
 import React from 'react';
 import Link from 'next/link';
 
-const Navbar: React.FC = () => {
+interface Link {
+  name: string;
+  location: string;
+}
+
+interface NavbarProps {
+  links: Link[];
+}
+
+const Navbar: React.FC<NavbarProps> = ({ links }) => {
   return (
     <ul className="navUl">
-      <li className="navLi">
-        <Link className="navAtag" href={"/ContactForm"}>
-        Contact
-        </Link>
-      </li>
-      <li className="navLi">
-      <Link className="navAtag" href={"/Projects"}>
-        Projects
-        </Link>
-      </li>
-      <li className="navLi">
-      <Link className="navAtag" href={"/AboutMe"}>
-        About
-        </Link>
-      </li>
-      <li className="navLi">
-      <Link className="navAtag" href={"/"}>
-        Home
-        </Link>
-      </li>
+      {links.map((link, index) => ( // Fixed map function syntax
+        <li className="navLi" key={index}>
+          <Link className="navAtag" href={link.location}> 
+           {link.name}
+          </Link>
+        </li>
+      ))}
     </ul>
-
   );
 }
+
 
 export default Navbar;
 

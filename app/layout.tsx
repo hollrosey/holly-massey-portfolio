@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   description: "Exmaple here",
 };
 
+const navLinks = [
+  { name: "AboutMe", location: "/AboutMe"},
+  { name: "ContactForm", location: "/ContactForm"},
+  { name: "Projects", location: "/Projects"},
+  { name: "Home", location: "/"}
+  
+]
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -18,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <main>
-        <Navbar />
+        <Navbar links={navLinks} />
           {children}
         </main>
         </body>
