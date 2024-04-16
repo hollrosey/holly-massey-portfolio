@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import React from 'react';
 import Head from 'next/head';
 import "./globals.css";
 import Navbar from "./_components/Navbar";
@@ -9,9 +10,9 @@ export const metadata: Metadata = {
 };
 
 const navLinks = [
-  { name: "AboutMe", location: "/AboutMe"},
   { name: "ContactForm", location: "/ContactForm"},
   { name: "Projects", location: "/Projects"},
+  { name: "About", location: "/AboutMe"},
   { name: "Home", location: "/"}
   
 ]
