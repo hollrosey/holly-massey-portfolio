@@ -60,7 +60,7 @@ const ProjectGrid: React.FC<NavbarProps> = () => {
             </div>
           </li>
         </ul>
-      </div>
+       </div>
     </>
   );
 };
