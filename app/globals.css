@@ -9,7 +9,7 @@ body {
   background-color: var(--main-bg-color);
   color: var(--main-font-color);
   font-family: "Optima";
-  margin: 70px 0 0 0;
+  margin: 60px 0 0 0;
   min-height: 100vh;
   padding: 0;
 }
