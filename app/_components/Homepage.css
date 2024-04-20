@@ -1,0 +1,31 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+.text {
+    text-align: center;
+}
+
+.profilePic {
+  max-width: 80vh;
+  max-height: auto;
+}
+
+@media (min-width: 768px) {
+  .aboutContainer {
+    flex-direction: row;
+    margin: 0 40px;
+  }
+
+  .text {
+    font-size: 20px;
+    padding: 0 20px;
+    text-align: left;
+  }
+}
+
+
