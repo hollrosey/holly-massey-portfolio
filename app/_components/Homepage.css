@@ -13,6 +13,9 @@
 .profilePic {
   max-width: 80vh;
   max-height: auto;
+  box-shadow:
+    -55px -55px 0 -40px var(--accent-beige),
+    55px 55px 0 -40px var(--accent-beige);
 }
 
 @media (min-width: 768px) {
