@@ -5,8 +5,8 @@ import ProjectGrid from "../_components/ProjectGrid";
 export default function Projects() {
     return (
       <>
-      <h1>Project test!</h1>
-      <ProjectGrid  />
+      <h1>My Projects</h1>
+      <ProjectGrid links={[]}  />
       </>
     );
   }

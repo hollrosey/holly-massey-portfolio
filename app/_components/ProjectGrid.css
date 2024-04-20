@@ -34,6 +34,7 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  opacity: 0.8;
 }
 
 .project:hover .hoverOverlay {
@@ -49,4 +50,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  background-color: var(--navbar-colour);
+  
 }
