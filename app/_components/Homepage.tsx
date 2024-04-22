@@ -7,11 +7,19 @@ const Homepage: React.FC = () => {
   return (
     <div className="aboutContainer">
       <div className="text">
-        <h1>This is a test title...</h1>
-        <p>And this is a test paragraph to represent a short summary of my portfolio.</p>
+        <h1>My title will go here.</h1>
+        <p>
+          This is a placeholder! 
+        </p>
       </div>
       <div className="aboutImage">
-        <Image src="/placeholder.jpg" width="400" height="450" alt={""} className="profilePic"/>
+        <Image
+          src="/placeholder.jpg"
+          width="282"
+          height="400"
+          alt={""}
+          className="profilePic"
+        />
       </div>
     </div>
   );
