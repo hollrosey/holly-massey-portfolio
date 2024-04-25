@@ -45,5 +45,3 @@ REMEMBER TO:
 - Keep styles reusable (using variables in CSS)
 - Build mobile first and then optimise for desktop
 
-
-

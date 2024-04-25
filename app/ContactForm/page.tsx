@@ -1,10 +1,13 @@
-
 import "../globals.css";
-import React from 'react';
+import React from "react";
+import ContactHeader from "../_components/ContactHeader";
+import Form from "../_components/Form";
 
 export default function ContactForm() {
-    return (
-      <h1>Contact form test!</h1>
-    );
-  }
-  
+  return (
+    <>
+      <ContactHeader />
+      <Form />
+    </>
+  );
+}

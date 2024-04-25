@@ -1,11 +1,7 @@
 import "../globals.css";
-import React from 'react';
+import React from "react";
+import About from "../_components/About";
 
 export default function AboutMe() {
-    return (
-      <>
-      <h1>Test</h1>
-      </>
-    );
-  }
-  
+  return <About />;
+}

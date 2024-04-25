@@ -1,31 +1,3 @@
-.aboutContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  min-height: 75vh;
-}
 
-.profilePic {
-  max-width: 80vh;
-  max-height: auto;
-  margin: 30px 0 50px 0;
-  box-shadow:
-    55px 55px 0 -40px var(--accent-beige),
-    -55px -55px 0 -40px var(--accent-beige);
-}
-
-@media (min-width: 768px) {
-  .aboutContainer {
-    flex-direction: row;
-    margin: 0 40px;
-  }
-
-  .text {
-    font-size: 20px;
-    padding: 0 20px;
-    text-align: left;
-  }
-}
 
 
