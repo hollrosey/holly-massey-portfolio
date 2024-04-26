@@ -6,7 +6,7 @@ import "./Homepage.css";
 const Homepage: React.FC = () => {
   return (
     <>
-      <h1>Hi there! I&apos;m Holly, a junior Web Developer.</h1>
+      <h1>Hi, I&apos;m Holly, a junior Web Developer.</h1>
       <p>Insert sentence here</p>
 
       <div className="project">

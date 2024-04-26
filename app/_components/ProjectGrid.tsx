@@ -9,52 +9,48 @@ interface Link {
   location: string;
 }
 
-interface NavbarProps {
-  links: Link[];
-}
-
-const ProjectGrid: React.FC<NavbarProps> = () => {
+const ProjectGrid: React.FC = () => {
   return (
     <>
       <div className="projectsContainer">
         <ul className="projectGallery">
           <li className="project">
-            <Image src="/placeholder.jpg" height="200" width="250" alt="" className="projectImg"/>
+            <Image src="/placeholder.jpg" height="250" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
               <span className="projectName">Project name</span>
             </div>
           </li>
 
           <li className="project">
-            <Image src="/placeholder.jpg" height="200" width="250" alt="" className="projectImg"/>
+            <Image src="/placeholder.jpg" height="250" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
               <span className="projectName">Project name</span>
             </div>
           </li>
 
           <li className="project">
-            <Image src="/placeholder.jpg" height="200" width="250" alt="" className="projectImg"/>
+            <Image src="/placeholder.jpg" height="250" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
               <span className="projectName">Project name</span>
             </div>
           </li>
 
           <li className="project">
-            <Image src="/placeholder.jpg" height="200" width="250" alt="" className="projectImg"/>
+            <Image src="/placeholder.jpg" height="250" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
               <span className="projectName">Project name</span>
             </div>
           </li>
 
           <li className="project">
-            <Image src="/placeholder.jpg" height="200" width="250" alt="" className="projectImg"/>
+            <Image src="/placeholder.jpg" height="250" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
               <span className="projectName">Project name</span>
             </div>
           </li>
 
           <li className="project">
-            <Image src="/placeholder.jpg" height="200" width="250" alt="" className="projectImg"/>
+            <Image src="/placeholder.jpg" height="250" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
               <span className="projectName">Project name</span>
             </div>
