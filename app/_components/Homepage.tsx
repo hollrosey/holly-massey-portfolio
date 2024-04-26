@@ -6,28 +6,28 @@ import "./Homepage.css";
 const Homepage: React.FC = () => {
   return (
     <>
-      <h1>Hi, I&apos;m Holly, a junior Web Developer.</h1>
-      <p>Insert sentence here</p>
+      <h1 className="text">Hi, I&apos;m Holly, a junior Web Developer.</h1>
+      <p className="text">Insert sentence here</p>
 
       <div className="project">
         <Image
           src="/placeholder.jpg"
-          height="200"
-          width="250"
+          height="250"
+          width="300"
           alt=""
           className="projectImg"
         />
-        <div className="hoverOverlay">
+        <div className="overlay">
           <span className="projectName">My most recent project</span>
         </div>
       </div>
-      <Link className="viewAllProjects" href="/Projects">
-        View all projects
+      <Link className="viewAllProjects text" href="/Projects">
+        <p>View all projects</p>
       </Link>
 
-      <div className="workTogether">
-        <h2>Let&apos;s work together!</h2>
-        <Link className="getInTouch" href="/ContactForm">
+      <div className="workTogether text">
+        <h2 className="text">Let&apos;s work together!</h2>
+        <Link className="getInTouch text" href="/ContactForm">
           Get in touch
         </Link>
       </div>
