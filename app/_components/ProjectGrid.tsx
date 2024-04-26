@@ -4,12 +4,11 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-interface Link {
-  name: string;
-  location: string;
+interface ProjectGridProps {
+  links?: string[]; 
 }
 
-const ProjectGrid: React.FC = () => {
+const ProjectGrid: React.FC<ProjectGridProps> = () => {
   return (
     <>
       <div className="projectsContainer">
