@@ -6,11 +6,11 @@ import ResponsiveAppBar from "./_components/ResponsiveAppBar";
 import Footer from "./_components/Footer";
 
 const navLinks = [
-  { name: "Contact", location: "/ContactForm" },
-  { name: "Blog", location: "/Blog" },
-  { name: "Projects", location: "/Projects" },
-  { name: "About", location: "/AboutMe" },
   { name: "Home", location: "/" },
+  { name: "About", location: "/AboutMe" },
+  { name: "Projects", location: "/Projects" },
+  { name: "Blog", location: "/Blog" },
+  { name: "Contact", location: "/ContactForm" }
 ];
 
 export default function RootLayout({
