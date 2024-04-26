@@ -3,8 +3,7 @@
     box-sizing: border-box;
   }
   
-  h1,
-  p {
+ .centered {
     text-align: center;
   }
   
