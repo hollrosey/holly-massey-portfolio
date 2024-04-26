@@ -78,13 +78,15 @@ const ResponsiveAppBar: React.FC<AppBarProps> = ({ links }) => {
           </Box>
           
           <Box className="box" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end' } }}>
-            {pages.map((page) => (
+            {links.map((link, index) => (
               <Button
-                key={page}
+                key={index}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                <Link className="navAtag" href={link.location}> 
+           {link.name}
+          </Link>
               </Button>
             ))}
           </Box>
