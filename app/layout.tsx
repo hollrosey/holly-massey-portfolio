@@ -1,14 +1,9 @@
-import type { Metadata } from "next";
+"use client"
 import React from "react";
 import Head from "next/head";
 import "./globals.css";
-import Navbar from "./_components/Navbar";
+import ResponsiveAppBar from "./_components/ResponsiveAppBar";
 import Footer from "./_components/Footer";
-
-export const metadata: Metadata = {
-  title: "Holly Massey Portfolio",
-  description: "Exmaple here",
-};
 
 const navLinks = [
   { name: "Contact", location: "/ContactForm" },
@@ -34,7 +29,7 @@ export default function RootLayout({
         </Head>
         <body>
           <main>
-            <Navbar links={navLinks} />
+            <ResponsiveAppBar links={navLinks} />
             {children}
             <Footer />
           </main>
