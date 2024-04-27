@@ -2,11 +2,7 @@
 import "./BlogPosts.css";
 import React from "react";
 
-interface BlogPostsProps {
-  links?: string[];
-}
-
-const BlogPosts: React.FC<BlogPostsProps> = () => {
+const BlogPosts: React.FC = () => {
   return (
     <>
       <h1 className="blogTitle">Blog</h1>

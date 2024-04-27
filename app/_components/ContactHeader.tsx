@@ -10,7 +10,7 @@ const ContactHeader: React.FC = () => {
         Have a project in mind? Or maybe you just want to chat! Drop me a line
         using the form below, and let&apos;s connect. You can also find me on{" "}
         <Link
-          className="footerLink"
+          className="contactLink"
           href="https://linkedin.com/in/holly-massey-6114a92a6"
           target="_blank"
         >
@@ -18,7 +18,7 @@ const ContactHeader: React.FC = () => {
         </Link>{" "}
         or feel free to send me an{" "}
         <Link
-          className="footerLink"
+          className="contactLink"
           href="mailto:hollyrmassey@yahoo.co.uk"
           target="_blank"
         >
