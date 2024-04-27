@@ -6,7 +6,7 @@ const ContactHeader: React.FC = () => {
   return (
     <>
       <h1 className="centered">Let&apos;s connect.</h1>
-      <p className="centered">
+      <p className="centered paraMargin">
         Have a project in mind? Or maybe you just want to chat! Drop me a line
         using the form below, and let&apos;s connect. You can also find me on{" "}
         <Link

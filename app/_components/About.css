@@ -1,0 +1,25 @@
+.profilePicture {
+  margin: 10px auto;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutMeText {
+  max-width: 65%;
+  text-align: center;
+}
+
+.toolkit {
+  background-color: grey;
+  padding: 20px 0;
+  margin: 50px auto;
+}
+
+.bottomSection {
+  margin-bottom: 50px;
+}

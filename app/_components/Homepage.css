@@ -5,3 +5,17 @@
 .project {
     text-align: center;
 }
+
+.homeProjectImg {
+    margin: 10px auto;
+}
+
+.workTogether {
+    background-color: grey;
+    padding: 20px 0;
+    margin: 50px auto;
+}
+
+.blogSection {
+    margin-bottom: 50px;
+}

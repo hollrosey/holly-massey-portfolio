@@ -1,3 +1,7 @@
+.text {
+    text-align: center;
+}
+
 .projectGallery {
     display: flex;
   flex-wrap: wrap;
@@ -5,7 +9,7 @@
   gap: 40px;
   list-style: none;
   padding: 0;
-  margin: 30px auto;
+  margin: 40px auto;
   max-width: 980px;
 }
 

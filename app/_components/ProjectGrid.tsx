@@ -11,6 +11,7 @@ interface ProjectGridProps {
 const ProjectGrid: React.FC<ProjectGridProps> = () => {
   return (
     <>
+    <h1 className="text">Projects</h1>
       <div className="projectsContainer">
         <ul className="projectGallery">
           <li className="project">
