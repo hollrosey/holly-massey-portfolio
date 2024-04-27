@@ -1,11 +1,11 @@
 import "../globals.css";
 import React from "react";
+import BlogPosts from "../_components/BlogPosts";
 
 export default function Blog() {
   return (
     <>
-      <h1 className="text">Blog</h1>
-      <p></p>
+      <BlogPosts />
     </>
   );
 }
