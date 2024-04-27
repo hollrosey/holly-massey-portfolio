@@ -20,9 +20,6 @@ interface Link {
     links: Link[];
   }
 
-const pages = ['Home', 'About', 'Projects', 'Blog', 'Contact'];
-const links = ['/', '/AboutMe', '/Projects', '/Blog', '/ContactForm'];
-
 const ResponsiveAppBar: React.FC<AppBarProps> = ({ links }) => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
 

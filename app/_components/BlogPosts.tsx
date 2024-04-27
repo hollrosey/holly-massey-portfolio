@@ -1,8 +1,6 @@
 "use client";
 import "./BlogPosts.css";
 import React from "react";
-import Link from "next/link";
-import Image from "next/image";
 
 interface BlogPostsProps {
   links?: string[];
