@@ -54,6 +54,7 @@ const ProjectGrid: React.FC<ProjectGridProps> = () => {
             <div className="hoverOverlay">
               <span className="projectName">Project name</span>
             </div>
+            
           </li>
         </ul>
        </div>
