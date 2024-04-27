@@ -23,3 +23,16 @@
 .bottomSection {
   margin-bottom: 50px;
 }
+
+.text {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .aboutMe {
+    display: flex;
+    flex-direction: row;
+    margin: auto 100px;
+  }
+}

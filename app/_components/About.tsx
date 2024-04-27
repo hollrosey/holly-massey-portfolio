@@ -5,8 +5,8 @@ import "./About.css";
 const About: React.FC = () => {
   return (
     <>
+    <h1 className="text">I&apos;m Holly.</h1>
       <div className="aboutMe text">
-        <h1>I&apos;m Holly.</h1>
         <Image
           src="/placeholder.jpg"
           height="350"
@@ -24,7 +24,7 @@ const About: React.FC = () => {
         <h3>My Toolkit</h3>
       </div>
 
-      <div className="bottomSection text">
+      <div className="bottomSection <h1>I&apos;m Holly.</h1>">
         <p>hi</p>
       </div>
     </>

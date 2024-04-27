@@ -9,7 +9,7 @@ const Homepage: React.FC = () => {
       <div className="titleAndProject">
         <h1 className="text">Hi, I&apos;m Holly, a junior Web Developer.</h1>
         <p className="text">Insert sentence here</p>
-        <div className="project">
+        <div className="projectHome">
           <Image
             src="/placeholder.jpg"
             height="350"
@@ -17,9 +17,7 @@ const Homepage: React.FC = () => {
             alt=""
             className="homeProjectImg"
           />
-          <div className="overlay">
-            <span className="projectName">My most recent project</span>
-          </div>
+          <p className="text">Paragraph about recent project here!</p>
         </div>
         <Link className="viewAllProjects text" href="/Projects">
           <p>View all projects</p>

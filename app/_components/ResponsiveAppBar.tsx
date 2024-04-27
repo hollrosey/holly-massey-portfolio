@@ -66,9 +66,9 @@ const ResponsiveAppBar: React.FC<AppBarProps> = ({ links }) => {
             >
               {links.map((link, index) => (
                 <MenuItem key={index} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center"><Link className="navAtag" href={link.location}> 
+                  <Link className="navAtag" href={link.location}><Typography textAlign="center">
            {link.name}
-          </Link></Typography>
+          </Typography></Link>
                 </MenuItem>
               ))}
             </Menu>
