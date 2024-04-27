@@ -11,8 +11,8 @@ interface BlogPostsProps {
 const BlogPosts: React.FC<BlogPostsProps> = () => {
   return (
     <>
-      <h1 className="text">Blog</h1>
-      <p className="text">Something about blog posts here</p>
+      <h1 className="blogTitle">Blog</h1>
+      <p className="blogTitle">Something about blog posts here</p>
       <div className="blogContainer">
         <ul className="blogGallery">
 
