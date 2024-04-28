@@ -8,9 +8,9 @@ const About: React.FC = () => {
     <h1 className="text titleFont">I&apos;m Holly.</h1>
       <div className="aboutMe text">
         <Image
-          src="/placeholder.jpg"
-          height="350"
-          width="300"
+          src="/headshot.PNG"
+          height="438"
+          width="350"
           alt=""
           className="profilePicture"
         />
