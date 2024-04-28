@@ -25,6 +25,7 @@
   button {
     margin-top: 15px;
     padding: 8px 14px;
+    font-family: var(--title-font);
   }
   
   .buttonContainer {

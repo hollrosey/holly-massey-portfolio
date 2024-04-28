@@ -6,7 +6,7 @@ import "./Footer.css";
 const Footer: React.FC = () => {
   return (
     <footer>
-      <h3 className="footerQuote">Always learning, always creating.</h3>
+      <h3 className="footerQuote titleFont">Always learning, always creating.</h3>
       <div className="footerContent">
       <div className="footerLeft">
           <p>Copyright 2024 © Holly Massey</p>

@@ -7,7 +7,7 @@ const Homepage: React.FC = () => {
   return (
     <>
       <div className="titleAndProject">
-        <h1 className="text">Hi, I&apos;m Holly, a junior Web Developer.</h1>
+        <h1 className="text titleFont">Hi, I&apos;m Holly, a junior Web Developer.</h1>
         <p className="text">Insert sentence here</p>
         <div className="projectHome">
           <Image
@@ -25,7 +25,7 @@ const Homepage: React.FC = () => {
       </div>
 
       <div className="workTogether text">
-        <h2 className="text">Let&apos;s work together!</h2>
+        <h2 className="text titleFont">Let&apos;s work together!</h2>
         <Link className="getInTouch text" href="/ContactForm">
           <p>Get in touch</p>
         </Link>

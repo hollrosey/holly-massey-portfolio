@@ -1,5 +1,18 @@
+@import url(https://fonts.googleapis.com/css2?family=Orelega+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orelega+One&display=swap);
+
+:root {
+  --title-font: "Orelega One", serif;
+  --main-font: "Montserrat", sans-serif;
+}
+
 body {
   margin: 90px 0 0 0;
   min-height: 100%;
   padding: 0;
+  font-family: var(--main-font);
+}
+
+.titleFont {
+  font-family: var(--title-font);
 }

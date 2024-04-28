@@ -5,7 +5,7 @@ import React from "react";
 const BlogPosts: React.FC = () => {
   return (
     <>
-      <h1 className="blogTitle">Blog</h1>
+      <h1 className="blogTitle titleFont">Blog</h1>
       <p className="blogTitle">Something about blog posts here</p>
       <div className="blogContainer">
         <ul className="blogGallery">
