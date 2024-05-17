@@ -30,8 +30,20 @@ const Homepage: React.FC = () => {
           <p>Get in touch</p>
         </Link>
       </div>
-      <div className="blogSection">
-        <p>hi</p>
+      <div className="toolkit">
+        <h3>Languages and Tools</h3>
+        <div className="toolIcons">
+        <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" alt="" height="50" width="50"/>
+    <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" alt="" height="50" width="50" />
+    <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="" height="50" width="50"/>
+    <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="" height="50" width="50"/>
+    <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" height="50" width="50"/>
+    <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="" height="50" width="50" />
+    <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="" height="50" width="50" />    
+    <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="" height="50" width="50" />
+    <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="" height="50" width="50" />
+    <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" alt="" height="50" width="50" />
+        </div>
       </div>
     </>
   );

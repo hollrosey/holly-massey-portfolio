@@ -1,9 +1,7 @@
-@import url(https://fonts.googleapis.com/css2?family=Calistoga&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orelega+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap);
 
 :root {
-  --title-font: "Calistoga", serif;
-  --main-font: "Montserrat", sans-serif;
+  --main-font: "Raleway", sans-serif;
   --main-green: #597B6A;
   --accent-green: #90b569;
   --section-colour: #f4f2f1;
@@ -17,7 +15,7 @@ body {
 }
 
 .titleFont {
-  font-family: var(--title-font);
+  font-family: var(--main-font);
 }
 
 ::-webkit-scrollbar {
