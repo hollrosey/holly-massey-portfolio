@@ -29,3 +29,13 @@ body {
 .css-6hp17o-MuiList-root-MuiMenu-list {
   background-color: var(--section-colour);
 }
+
+.navAtagDesktop {
+  color: var(--section-colour);
+  text-decoration: none;
+}
+
+.navAtag {
+  color: var(--main-green);
+  text-decoration: none;
+}

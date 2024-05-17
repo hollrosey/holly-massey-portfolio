@@ -15,16 +15,7 @@ const ContactHeader: React.FC = () => {
           target="_blank"
         >
           LinkedIn
-        </Link>{" "}
-        or feel free to send me an{" "}
-        <Link
-          className="contactLink"
-          href="mailto:hollyrmassey@yahoo.co.uk"
-          target="_blank"
-        >
-          email
-        </Link>
-        .
+        </Link>.
       </p>
     </>
   );

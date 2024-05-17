@@ -81,7 +81,7 @@ const ResponsiveAppBar: React.FC<AppBarProps> = ({ links }) => {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                <Link className="navAtag" href={link.location}> 
+                <Link className="navAtagDesktop" href={link.location}> 
            {link.name}
           </Link>
               </Button>

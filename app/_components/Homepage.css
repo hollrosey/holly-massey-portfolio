@@ -29,6 +29,10 @@
     margin: 20px 50px;
 }
 
+.viewAllProjects, .getInTouch {
+    color: black;
+}
+
 @media only screen and (min-width: 768px) {
     .projectHome {
         display: flex;
