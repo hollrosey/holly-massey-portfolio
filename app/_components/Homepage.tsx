@@ -10,7 +10,7 @@ const Homepage: React.FC = () => {
         <h1 className="text titleFont">
           Hi, I&apos;m Holly, a junior Web Developer.
         </h1>
-        <p className="text">Insert sentence here</p>
+        <p className="text">Crafting impactful experiences through code and artistic expression.</p>
         <div className="projectHome">
           <Image
             src="/dpp-project.png"
@@ -20,14 +20,7 @@ const Homepage: React.FC = () => {
             className="homeProjectImg"
           />
           <p className="text projectDesc">
-            I worked with a team of 6 to design a mobile app for Eslando,
-            showcasing their Digital Product Passports. This user-friendly
-            interface lets consumers access clothing information with ease, all
-            while maintaining a visually-appealing design. I contributed through
-            user research, wireframing, and UI development using React, Next.js,
-            and CSS Modules. Balancing stakeholder needs with a positive user
-            experience was key, and I&apos;m eager to further enhance the app with
-            user analytics.
+          I teamed up with 5 fellow bootcampers to craft a visually-appealing web app using React and Next.js for Eslando's Digital Product Passports. User-centric design meets stakeholder needs. 
           </p>
         </div>
         <Link className="viewAllProjects text" href="/Projects">
