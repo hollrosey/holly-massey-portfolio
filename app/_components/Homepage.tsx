@@ -26,7 +26,7 @@ const Homepage: React.FC = () => {
             while maintaining a visually-appealing design. I contributed through
             user research, wireframing, and UI development using React, Next.js,
             and CSS Modules. Balancing stakeholder needs with a positive user
-            experience was key, and I'm eager to further enhance the app with
+            experience was key, and I&apos;m eager to further enhance the app with
             user analytics.
           </p>
         </div>
