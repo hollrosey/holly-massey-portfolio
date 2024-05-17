@@ -56,9 +56,6 @@ const About: React.FC = () => {
         </div>
       </div>
 
-      <div className="bottomSection">
-        <p>hi</p>
-      </div>
     </>
   );
 };

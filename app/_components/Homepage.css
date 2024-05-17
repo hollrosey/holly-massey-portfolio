@@ -25,6 +25,9 @@
     margin-bottom: 50px;
 }
 
+.projectDesc {
+    margin: 20px 50px;
+}
 
 @media only screen and (min-width: 768px) {
     .projectHome {
@@ -36,5 +39,9 @@
 
     .titleAndProject {
         margin: auto 100px;
+    }
+
+    .projectDesc {
+        max-width: 30%;
     }
 }
