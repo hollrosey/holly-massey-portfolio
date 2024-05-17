@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+.tagline, .projectDesc {
+    max-width: 70%;
+    margin: 20px auto;
+}
+
 .projectHome {
     text-align: center;
 }
@@ -9,6 +14,15 @@
 .homeProjectImg {
     margin: 10px auto;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.homeProjectImg:hover {
+    height: 405px;
+    width: 305px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .toolkit {
@@ -25,9 +39,6 @@
     margin-bottom: 50px;
 }
 
-.projectDesc {
-    margin: 20px 50px;
-}
 
 .viewAllProjects, .getInTouch {
     color: black;
@@ -42,10 +53,11 @@
     }
 
     .titleAndProject {
-        margin: auto 100px;
+        margin: auto;
+        max-width: 60%;
     }
 
     .projectDesc {
-        max-width: 30%;
+        max-width: 40%;
     }
 }

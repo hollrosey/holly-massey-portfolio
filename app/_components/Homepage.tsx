@@ -10,7 +10,7 @@ const Homepage: React.FC = () => {
         <h1 className="text titleFont">
           Hi, I&apos;m Holly, a junior Software Developer.
         </h1>
-        <p className="text">Crafting impactful experiences through code and artistic expression.</p>
+        <p className="text tagline">Crafting impactful experiences through code and artistic expression.</p>
         <div className="projectHome">
           <Image
             src="/dpp-project.png"
