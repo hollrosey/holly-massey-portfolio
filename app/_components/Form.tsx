@@ -10,12 +10,31 @@ const Form: React.FC = () => {
     subject: "",
     message: "",
   });
+  const [formStatus, setFormStatus] = useState("Pending...");
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
   
-    // Reset form data
-    setFormData({ firstName: "", lastName: "", email: "", subject: "", message: "" });
+    setFormStatus("Pending..."); 
+  
+    try {
+      const response = await fetch("https://formspree.io/f/xpzvnerd", {
+        method: "POST",
+        body: JSON.stringify(formData),
+        headers: { "Content-Type": "application/json" },
+      });
+  
+      if (response.ok) {
+        setFormStatus("Success!"); // Set status to "success" on success
+        setFormData({ firstName: "", lastName: "", email: "", subject: "", message: "" }); // Reset form data
+      } else {
+        setFormStatus("error"); // Set status to "error" on failure
+        console.error("Error submitting form:", response); // Log the error
+      }
+    } catch (error) {
+      setFormStatus("error"); // Set status to "error" on any other error
+      console.error("Error submitting form:", error); // Log the error
+    }
   };
 
   interface FormEventWithTarget extends EventTarget {
@@ -88,6 +107,12 @@ const Form: React.FC = () => {
               <button type="submit">Send</button>
             </div>
           </form>
+          {formStatus === "success" && (
+      <div className="success-message">Thank you for your message, I&apos;ll get back to you shortly!</div>
+    )}
+    {formStatus === "error" && (
+      <div className="error-message">Error submitting form. Please try again.</div>
+    )}
         </div>
       </div>
     </>
