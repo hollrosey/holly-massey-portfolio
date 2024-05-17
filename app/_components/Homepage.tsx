@@ -8,7 +8,7 @@ const Homepage: React.FC = () => {
     <>
       <div className="titleAndProject">
         <h1 className="text titleFont">
-          Hi, I&apos;m Holly, a junior Web Developer.
+          Hi, I&apos;m Holly, a junior Software Developer.
         </h1>
         <p className="text">Crafting impactful experiences through code and artistic expression.</p>
         <div className="projectHome">
@@ -20,7 +20,7 @@ const Homepage: React.FC = () => {
             className="homeProjectImg"
           />
           <p className="text projectDesc">
-          I teamed up with 5 fellow bootcampers to craft a visually-appealing web app using React and Next.js for Eslando's Digital Product Passports. User-centric design meets stakeholder needs. 
+          I teamed up with 5 fellow bootcampers to craft a visually-appealing web app using React and Next.js for Eslando&apos;s Digital Product Passports. User-centric design meets stakeholder needs. 
           </p>
         </div>
         <Link className="viewAllProjects text" href="/Projects">

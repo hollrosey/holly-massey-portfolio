@@ -43,19 +43,20 @@ const About: React.FC = () => {
         />
         <div className="aboutMeText">
           <h2 className="titleFont">
-            I&apos;m a junior Web Developer with an eye for design
+            I&apos;m a junior Software Developer with an eye for design
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            Fuelled by a passion for creativity and how it translates into the
+            digital world, I&apos;m diving headfirst into software development.
+            Outside of coding, you&apos;ll find me wielding a paintbrush and
+            exploring new artistic techniques or crafting crochet creations, one
+            stitch at a time. Of course, no bio is complete without mentioning
+            enjoying time with my seven adorable pets! Constantly exploring new
+            tools and ideas keeps me excited about my future in software
+            development.
           </p>
         </div>
       </div>
-
     </>
   );
 };
