@@ -9,6 +9,9 @@
 
 .projectHome {
     text-align: center;
+    background-color: rgba(144, 181, 105, 0.5);
+    padding: 30px 10px;
+    margin-bottom: 40px;
 }
 
 .homeProjectImg {
@@ -26,9 +29,10 @@
 }
 
 .toolkit {
-    background-color: #f4f2f1;
+    background-color: rgba(89, 123, 106,  0.7);
     padding: 20px 0;
     margin: 50px auto;
+    color: var(--section-colour);
 }
 
 .toolIcons img {
@@ -50,6 +54,9 @@
         flex-direction: row-reverse;
         align-items: center;
         justify-content: center;
+        padding: 40px 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 
     .titleAndProject {
@@ -59,5 +66,11 @@
 
     .projectDesc {
         max-width: 40%;
+    }
+
+    .toolkit {
+        max-width: 60%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 }

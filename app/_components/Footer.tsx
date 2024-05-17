@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
                 href="https://github.com/hollrosey"
                 target="_blank"
               >
-                <FaGithub size={30} color="#333" />
+                <FaGithub size={30} color="#f4f2f1" />
               </Link>
             </li>
             <li>
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
                 href="https://linkedin.com/in/holly-massey-6114a92a6"
                 target="_blank"
               >
-                <FaLinkedin size={30} color="#333" />
+                <FaLinkedin size={30} color="#f4f2f1" />
               </Link>
             </li>
             <li>
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
                 href="mailto:hollyrmassey@yahoo.co.uk"
                 target="_blank"
               >
-                <FaEnvelope size={30} color="#333"/>
+                <FaEnvelope size={30} color="#f4f2f1"/>
               </Link>
             </li>
           </ul>

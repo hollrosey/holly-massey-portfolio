@@ -1,5 +1,6 @@
 .profilePicture {
   margin: 10px auto;
+  border-radius: 10px;
 }
 
 .aboutMe {
@@ -7,11 +8,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: rgba(144, 181, 105, 0.5);
+  padding-top: 20px;
 }
 
 .aboutMeText {
   max-width: 65%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .text {
@@ -42,10 +46,16 @@
   .aboutMe {
     display: flex;
     flex-direction: row;
-    margin: auto 100px;
+    max-width: 70%;
+    margin: 30px auto 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
   }
 
   .aboutMeText {
     margin-left: 40px;
+    text-align: left;
   }
 }
