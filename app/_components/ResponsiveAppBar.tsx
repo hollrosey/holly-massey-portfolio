@@ -33,7 +33,7 @@ const ResponsiveAppBar: React.FC<AppBarProps> = ({ links }) => {
   
 
   return (
-    <AppBar className="appBar">
+    <AppBar className="appBar" sx={{ backgroundColor: '#597B6A' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
 
