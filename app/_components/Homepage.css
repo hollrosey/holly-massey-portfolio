@@ -11,15 +11,20 @@
     object-fit: cover;
 }
 
-.workTogether {
+.toolkit {
     background-color: #f4f2f1;
     padding: 20px 0;
     margin: 50px auto;
 }
 
-.blogSection {
+.toolIcons img {
+    margin: 10px;
+}
+
+.workTogether {
     margin-bottom: 50px;
 }
+
 
 @media only screen and (min-width: 768px) {
     .projectHome {
