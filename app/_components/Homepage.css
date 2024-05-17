@@ -8,10 +8,11 @@
 
 .homeProjectImg {
     margin: 10px auto;
+    object-fit: cover;
 }
 
 .workTogether {
-    background-color: grey;
+    background-color: #f4f2f1;
     padding: 20px 0;
     margin: 50px auto;
 }

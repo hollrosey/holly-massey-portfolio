@@ -15,47 +15,33 @@ const ProjectGrid: React.FC<ProjectGridProps> = () => {
       <div className="projectsContainer">
         <ul className="projectGallery">
           <li className="project">
-            <Image src="/placeholder.jpg" height="250" width="300" alt="" className="projectImg"/>
+            <Image src="/dpp-project.png" height="350" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
               <span className="projectName">Project name</span>
             </div>
           </li>
 
           <li className="project">
-            <Image src="/placeholder.jpg" height="250" width="300" alt="" className="projectImg"/>
+            <Image src="/placeholder.jpg" height="350" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
               <span className="projectName">Project name</span>
             </div>
           </li>
 
           <li className="project">
-            <Image src="/placeholder.jpg" height="250" width="300" alt="" className="projectImg"/>
+            <Image src="/placeholder.jpg" height="350" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
               <span className="projectName">Project name</span>
             </div>
           </li>
 
           <li className="project">
-            <Image src="/placeholder.jpg" height="250" width="300" alt="" className="projectImg"/>
+            <Image src="/placeholder.jpg" height="350" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
               <span className="projectName">Project name</span>
             </div>
           </li>
 
-          <li className="project">
-            <Image src="/placeholder.jpg" height="250" width="300" alt="" className="projectImg"/>
-            <div className="hoverOverlay">
-              <span className="projectName">Project name</span>
-            </div>
-          </li>
-
-          <li className="project">
-            <Image src="/placeholder.jpg" height="250" width="300" alt="" className="projectImg"/>
-            <div className="hoverOverlay">
-              <span className="projectName">Project name</span>
-            </div>
-            
-          </li>
         </ul>
        </div>
     </>

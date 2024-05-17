@@ -9,7 +9,6 @@ const navLinks = [
   { name: "Home", location: "/" },
   { name: "About", location: "/AboutMe" },
   { name: "Projects", location: "/Projects" },
-  { name: "Blog", location: "/Blog" },
   { name: "Contact", location: "/ContactForm" }
 ];
 

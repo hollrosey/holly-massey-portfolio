@@ -19,6 +19,11 @@
     cursor: pointer;
 }
 
+.project img {
+    object-fit: cover;
+    object-position: middle;
+}
+
 ul {
     list-style: none;
 }

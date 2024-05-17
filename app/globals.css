@@ -4,6 +4,9 @@
 :root {
   --title-font: "Calistoga", serif;
   --main-font: "Montserrat", sans-serif;
+  --main-green: #597B6A;
+  --accent-green: #90b569;
+  --section-colour: #f4f2f1;
 }
 
 body {
@@ -15,4 +18,16 @@ body {
 
 .titleFont {
   font-family: var(--title-font);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+  background-color: var(--main-green) !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  background-color: var(--section-colour);
 }

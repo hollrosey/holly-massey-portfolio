@@ -11,8 +11,8 @@ const Homepage: React.FC = () => {
         <p className="text">Insert sentence here</p>
         <div className="projectHome">
           <Image
-            src="/placeholder.jpg"
-            height="350"
+            src="/dpp-project.png"
+            height="400"
             width="300"
             alt=""
             className="homeProjectImg"
