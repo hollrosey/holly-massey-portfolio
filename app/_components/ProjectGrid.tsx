@@ -12,44 +12,37 @@ const ProjectGrid: React.FC<ProjectGridProps> = () => {
   return (
     <>
     <h1 className="text titleFont">Projects</h1>
-    <p className="text projectSubheading">Here&apos;s some of my projects that I&apos;ve created recently. Click on a tile to go to their GitHub repository!</p>
+    <p className="text projectSubheading">Here&apos;s some of my projects that I&apos;ve created recently. Click the links to go to their GitHub repositories!</p>
       <div className="projectsContainer">
         <ul className="projectGallery">
           <li className="project">
-            <Link href="https://github.com/INFINITYX00/eslando" target="_blank">
+            
             <Image src="/dpp-project.png" height="350" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
-              <span className="projectName">Eslando&apos;s Digital Product Passports</span>
+              <span className="projectName"><Link href="https://github.com/INFINITYX00/eslando" target="_blank">Eslando&apos;s Digital Product Passports</Link></span>
             </div>
-            </Link>
           </li>
 
           <li className="project">
-          <Link href="https://github.com/hollrosey/holly-massey-portfolio" target="_blank">
             <Image src="/portfolio.jpeg" height="350" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
-              <span className="projectName">Portfolio Site</span>
+              <span className="projectName"><Link href="https://github.com/hollrosey/holly-massey-portfolio" target="_blank">Portfolio Site</Link></span>
             </div>
-            </Link>
           </li>
 
         
           <li className="project">
-          <Link href="https://hollrosey.github.io/magic-eight-ball/" target="_blank">
             <Image src="/eight-ball.png" height="350" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
-              <span className="projectName">Magic Eight Ball</span>
+              <span className="projectName"><Link href="https://hollrosey.github.io/magic-eight-ball/" target="_blank">Magic Eight Ball</Link></span>
             </div>
-            </Link>
           </li>
 
           <li className="project">
-          <Link href="https://github.com/hollrosey/fireplace-palace-hackathon" target="_blank">
             <Image src="/fireplace.png" height="350" width="300" alt="" className="projectImg"/>
             <div className="hoverOverlay">
-              <span className="projectName">Fireplace Palace Hackathon</span>
+              <span className="projectName"><Link href="https://github.com/hollrosey/fireplace-palace-hackathon" target="_blank">Fireplace Palace Hackathon</Link></span>
             </div>
-            </Link>
           </li>
 
         </ul>

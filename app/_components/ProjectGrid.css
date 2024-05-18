@@ -51,6 +51,10 @@ ul {
   border-radius: 10px;
 }
 
+.projectName a {
+  color: var(--secion-colour);
+}
+
 .project:hover .hoverOverlay {
   height: 100%;
   box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
