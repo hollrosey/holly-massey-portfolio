@@ -98,7 +98,7 @@ const Homepage: React.FC = () => {
           />
         </div>
       </div>
-      <div className="workTogether">
+      <div className="workTogether textColor">
         <h2 className="text titleFont">Let&apos;s work together!</h2>
         <Link className="clickable getInTouch text" href="/ContactForm">
           <p>Get in touch</p>
