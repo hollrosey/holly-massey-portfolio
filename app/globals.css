@@ -5,6 +5,7 @@
   --main-green: #597B6A;
   --accent-green: #90b569;
   --section-colour: #f4f2f1;
+  --green-text: #1a3c2a;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
   padding: 0;
   font-family: var(--main-font);
   background: radial-gradient(
-    farthest-side at bottom left, #ffb686, transparent), radial-gradient(#b3fff0, transparent), radial-gradient(farthest-corner at bottom right, #ffb3d1, transparent) ;
+    farthest-side at bottom left, #fccfb1, transparent), radial-gradient(#cdfcf3, transparent), radial-gradient(farthest-corner at bottom right, #fac3d9, transparent) ;
 	background-size: 400% 400%;
 	animation: gradient 25s ease infinite;
 	height: 100vh;
