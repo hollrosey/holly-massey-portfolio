@@ -6,7 +6,7 @@ import "./Homepage.css";
 const Homepage: React.FC = () => {
   return (
     <>
-      <div className="titleAndProject">
+      <div className="titleAndProject textColor">
         <h1 className="text titleFont">
           Hi, I&apos;m Holly, a junior Software Developer.
         </h1>
@@ -27,7 +27,7 @@ const Homepage: React.FC = () => {
             Passports. User-centric design meets stakeholder needs. 
           </p>
         </div>
-        <Link className="viewAllProjects text" href="/Projects">
+        <Link className="clickable viewAllProjects text" href="/Projects">
           <p>View all projects</p>
         </Link>
       </div>
@@ -100,7 +100,7 @@ const Homepage: React.FC = () => {
       </div>
       <div className="workTogether">
         <h2 className="text titleFont">Let&apos;s work together!</h2>
-        <Link className="getInTouch text" href="/ContactForm">
+        <Link className="clickable getInTouch text" href="/ContactForm">
           <p>Get in touch</p>
         </Link>
       </div>

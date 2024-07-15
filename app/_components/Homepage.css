@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+.textColor {
+    color: var(--green-text);
+}
+
 .tagline, .projectDesc {
     max-width: 70%;
     margin: 20px auto;
@@ -9,7 +13,7 @@
 
 .projectHome {
     text-align: center;
-    background-color: rgba(144, 181, 105, 0.5);
+    background-color: rgba(144, 181, 105, 0.3);
     padding: 30px 10px;
     margin-bottom: 40px;
 }
@@ -43,9 +47,10 @@
     margin-bottom: 50px;
 }
 
-
-.viewAllProjects, .getInTouch {
-    color: black;
+.clickable {
+    color: var(--green-text);
+    font-size: 20px;
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 768px) {

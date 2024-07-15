@@ -11,8 +11,8 @@ interface ProjectGridProps {
 const ProjectGrid: React.FC<ProjectGridProps> = () => {
   return (
     <>
-    <h1 className="text titleFont">Projects</h1>
-    <p className="text projectSubheading">Here&apos;s some of my projects that I&apos;ve created recently. Click the links to go to their GitHub repositories!</p>
+    <h1 className="text titleFont textColor">Projects</h1>
+    <p className="text projectSubheading textColor">Here&apos;s some of my projects that I&apos;ve created recently. Click the links to go to their GitHub repositories!</p>
       <div className="projectsContainer">
         <ul className="projectGallery">
           <li className="project">

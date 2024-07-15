@@ -32,8 +32,8 @@ import {
 const About: React.FC = () => {
   return (
     <>
-      <h1 className="text titleFont">I&apos;m Holly.</h1>
-      <div className="aboutMe text">
+      <h1 className="text titleFont textColor">I&apos;m Holly.</h1>
+      <div className="aboutMe text textColor">
         <Image
           src="/headshot.PNG"
           height="438"
@@ -48,10 +48,8 @@ const About: React.FC = () => {
           <p>
             Fuelled by a passion for creativity and how it translates into the
             digital world, I&apos;m diving headfirst into software development.
-            Outside of coding, you&apos;ll find me wielding a paintbrush and
-            exploring new artistic techniques or crafting crochet creations, one
-            stitch at a time. Of course, no bio is complete without mentioning
-            enjoying time with my seven adorable pets! Constantly exploring new
+            Outside of coding, you&apos;ll find me with a paintbrush in my hand, exploring new artistic techniques or crafting crochet pieces, one
+            stitch at a time. Constantly exploring new
             tools and ideas keeps me excited about my future in software
             development.
           </p>
