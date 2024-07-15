@@ -66,7 +66,7 @@ const ResponsiveAppBar: React.FC<AppBarProps> = ({ links }) => {
             >
               {links.map((link, index) => (
                 <MenuItem key={index} onClick={handleCloseNavMenu}>
-                  <Link className="navAtag" href={link.location}><Typography textAlign="center">
+                  <Link className="navAtag" href={link.location}><Typography textAlign="center" color="#1a3c2a">
            {link.name}
           </Typography></Link>
                 </MenuItem>
@@ -79,7 +79,7 @@ const ResponsiveAppBar: React.FC<AppBarProps> = ({ links }) => {
               <Button
                 key={index}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: '#f4f2f1', display: 'block' }}
               >
                 <Link className="navAtagDesktop" href={link.location}> 
            {link.name}
