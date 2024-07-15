@@ -12,7 +12,11 @@ body {
   min-height: 100%;
   padding: 0;
   font-family: var(--main-font);
-  background-color: var(--section-colour);
+  background: radial-gradient(
+    farthest-side at bottom left, #ffb686, transparent), radial-gradient(#b3fff0, transparent), radial-gradient(farthest-corner at bottom right, #ffb3d1, transparent) ;
+	background-size: 400% 400%;
+	animation: gradient 25s ease infinite;
+	height: 100vh;
 }
 
 .titleFont {
@@ -39,4 +43,16 @@ body {
 .navAtag {
   color: var(--main-green);
   text-decoration: none;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
